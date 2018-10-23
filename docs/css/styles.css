@@ -21,6 +21,11 @@
     border: 1px solid black;
 }
 
+.marginAuto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* END */
 
 body {
@@ -29,8 +34,7 @@ body {
 
 #wrapper {
     width: 960px;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 #menu {
     background-color: antiquewhite;
@@ -56,10 +60,10 @@ body {
 }
 
 #banner {
-    background-image: url("../images/happy-people.jpg");
+    background-image: url("../images/collegestudents.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 500px;
+    background-size: cover;
+    height: 370px;
 
 
 }
