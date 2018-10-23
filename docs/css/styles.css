@@ -1,9 +1,5 @@
-body {
-    font-family: Helvetica, "Helvetica Neue", SansSerif;
-}
-
 /* START REUSABLE */
-
+/**/
 .clear-margin {
     margin: 0px;
 
@@ -19,11 +15,18 @@ body {
 
 .centerText {
     text-align: center;
-
 }
 
+.borderThin {
+    border: 1px solid black;
+
+}
+/**/
 /* END */
 
+body {
+    font-family: Helvetica, "Helvetica Neue", SansSerif;
+}
 
 #wrapper {
     width: 960px;
@@ -82,10 +85,7 @@ body {
     padding-right: 31px;
 }
 
-.borderThin {
-    border: 1px solid black;
 
-}
 #content {
     width: 544px;
     background-color: green;
