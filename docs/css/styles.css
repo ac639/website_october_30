@@ -1,5 +1,5 @@
 /* START REUSABLE */
-/**/
+
 .clear-margin {
     margin: 0px;
 
@@ -19,9 +19,8 @@
 
 .borderThin {
     border: 1px solid black;
-
 }
-/**/
+
 /* END */
 
 body {
