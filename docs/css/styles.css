@@ -8,6 +8,11 @@
     margin-left: auto;
 }
 
+.eightypercent {
+    width: 80%;
+
+}
+
 .displayInline {
     display: inline;
 }
