@@ -1,97 +1,72 @@
-body {
-    font-family: Helvetica, "Helvetica Neue", SansSerif;
-}
-
 #wrapper {
     width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-}
-#menu {
-    background-color: antiquewhite;
-    height: 80px;
-    line-height: 80px;
-    width: 368px;
-    float: left;
-}
-#logo {
-    width: 592px;
-    float: left;
-}
-#menu ul {
-    margin: 0px;
+    background-color: blanchedalmond;
 }
 
-#menu li {
+.marginCenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.displayInline {
     display: inline;
 }
-
-#banner {
-    clear: both;
-    background-image: url("../images/college-students.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 500px;
-
-
-}
-
-#hero-text {
-    position: relative;
-    background-color: white;
-    width: 367px;
-    top: 50px;
-    left: 100px;
-}
-#hero-text h1 {
-    margin: 0px;
-}
-.std-padding {
+.sqrPadding {
     padding-left: 31px;
     padding-right: 31px;
 }
 
-.borderThin {
-    border: 1px solid black;
+#banner {
 
-}
-#content {
-    width: 544px;
-    background-color: green;
-    padding-left: 24px;
-    padding-right: 24px;
-    line-height: 27px;
+    background-image: url("../images/beer.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
 
 }
 
 .floatLeft {
     float: left;
 }
-#sidebar {
-    background-color: chocolate;
-    width: 368px;
+
+#top {
+    height: 100px;
+    line-height: 100px;
 }
 
-.clear-fix {
-    clear:both;
-}
-#footer {
-    background-color: bisque;
+.clearMargin {
 
+    margin: 0px;
+}
+.clearPadding {
+    padding: 0px;
 }
 
-.centerText {
-    text-align: center;
-
+.clearFix {
+    clear: both;
 }
+
+.grSmall {
+    width: 329px;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+.grBig {
+    width: 545px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.textRight {
+    text-align: right;
+}
+
 
 #panel1, #panel2, #panel3 {
 
-    float: left;
-    width: 256px;
-
-
+    width: 320px;
 }
-#panel3 {
-    background-color: green;
+
+.alignRight {
+    text-align: right;
 }
