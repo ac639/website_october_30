@@ -30,12 +30,11 @@
 }
 
 #top {
-    height: 100px;
-    line-height: 100px;
+    height: 135px;
+    line-height: 135px;
 }
 
 .clearMargin {
-
     margin: 0px;
 }
 .clearPadding {
@@ -57,8 +56,22 @@
     padding-left: 24px;
     padding-right: 24px;
 }
+
+.grFont {
+    line-height: 27px;
+    font-size: 16px;
+
+}
+
+.Helvetica {
+    font-family: Helvetica SansSerif;
+}
 .textRight {
     text-align: right;
+}
+
+.alignCenter {
+    text-align: center;
 }
 
 
